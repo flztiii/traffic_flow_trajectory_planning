@@ -20,11 +20,15 @@ For running code:
 
 - pygame (pip install pygame)
 
-- OOQP (https://pages.cs.wisc.edu/~swright/ooqp/)
-
-- glog (https://github.com/google/glog)
-
 - pcl_ros (sudo apt install ros-noetic-pcl-ros)
+
+- ooqp
+
+- glog
+
+- tk_spline
+
+- odeint-v2
 
 # Install
 
