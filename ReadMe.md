@@ -79,3 +79,5 @@ press "Enter" key in the terminal to start the program.
 # Acknowledgement
 
 https://github.com/HKUST-Aerial-Robotics/EPSILON
+
+https://github.com/Farama-Foundation/HighwayEnv
