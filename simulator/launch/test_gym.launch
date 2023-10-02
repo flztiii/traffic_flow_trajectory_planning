@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="simulator" name="test_gym_simulator" type="test_gym_simulator.py" output="screen" />
+    
+    <!-- rviz -->
+    <node pkg="rviz" name="rviz" type="rviz" args="-d $(find simulator)/rviz/test.rviz" />
+</launch>

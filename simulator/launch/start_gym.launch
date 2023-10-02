@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="simulator" name="simulator_node" type="gym_simulator_node.py" output="screen">
+        <param name="init_simulator_server_name" value="/simulator/init_simulator"/>
+        <param name="step_simulator_server_name" value="/simulator/step_simulator"/>
+    </node>
+</launch>

@@ -1,0 +1,9 @@
+int32 simulator_hz
+int32 simulator_max_steps
+---
+bool result
+float64 start_timestamp
+Vehicle ego_vehicle
+Vehicle[] other_vehicles
+Lane[] lanes
+int32 aim_lane_id

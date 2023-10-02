@@ -1,0 +1,6 @@
+float64 acc
+float64 steering
+---
+float64 timestamp
+simulator/Vehicle[] vehicles
+int32 done

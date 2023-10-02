@@ -1,0 +1,12 @@
+<launch>
+    <node pkg="local_planning" name="local_planning_node" type="local_planning_node" output="screen">
+        <param name="init_simulator_service_name" value="/simulator/init_simulator"/>
+        <param name="step_simulator_service_name" value="/simulator/step_simulator"/>
+        <param name="simulator_hz" value="5"/>
+        <param name="simulator_max_steps" value="50"/>
+        <param name="planning_horizon" value="0.2"/>
+    </node>
+
+    <!-- rviz -->
+    <node pkg="rviz" name="rviz" type="rviz" args="-d $(find local_planning)/rviz/test.rviz" />
+</launch>
